@@ -1,6 +1,6 @@
-// ===============================
-// Example 1: Basic Closure
-// ===============================
+// // ===============================
+// // Example 1: Basic Closure
+// // ===============================
 
 function outer() {
   // Local variable of outer function
@@ -25,7 +25,6 @@ let fn = outer();
 // Calling fn() still remembers 'name'
 fn(); // lazik
 
-
 // ===============================
 // Example 2: Counter using Closure
 // ===============================
@@ -36,7 +35,7 @@ function createCounter(n) {
     // returns current value of n
     // then increments it for next call
     console.log(n++);
-    
+
   };
 }
 
@@ -48,8 +47,7 @@ counter(); // 5
 counter(); // 6
 counter(); // 7
 
-
-// 
+//
 function counterFn() {
   let count = 0;
 
@@ -57,7 +55,7 @@ function counterFn() {
     count++;
     // return count;
     console.log(count);
-    
+
   };
 }
 
@@ -66,7 +64,7 @@ c1(); // 1
 c1(); // 2
 c1(); // 3
 
-// 
+//
 function test() {
   let x = 10;
   return () => {
@@ -79,3 +77,61 @@ const fnc = test();
 fnc(); // 15
 fnc(); // 20
 
+// This function takes one value and returns an object
+function expect(val) {
+  // We return an object that contains two functions
+  return {
+    // toBe checks if val is strictly equal to otherVal
+    toBe(otherVal) {
+      // If both values are exactly equal (===)
+      if (val === otherVal) {
+        // Return true when values match
+        console.log("both values are same !!!");
+        console.log(`${val} is equal to ${otherVal}`);
+
+        return true;
+      }
+
+      // If values are NOT equal, return this message
+      return console.log(`${val} is not equal to ${otherVal}`);
+    },
+
+    // notToBe checks if val is NOT strictly equal to otherVal
+    notToBe(otherVal) {
+      // If both values are different (!==)
+      if (val !== otherVal) {
+        // Return true when values are not equal
+        console.log(`${val} is not equal to ${otherVal}`);
+
+        return true;
+      }
+
+      // If values ARE equal, return this message
+      return console.log(`${val} is  equal to ${otherVal}`);
+    },
+  };
+}
+
+// ---------------- TEST CASES ----------------
+
+// Calls expect with value 5, then calls toBe(5)
+// 5 === 5 → true
+// console.log(expect(5).toBe(5));
+
+// Calls expect with value 5, then calls toBe(10)
+// 5 !== 10 → "Not Equal"
+// console.log(expect(5).toBe(10));
+
+// Calls expect with value 5, then calls notToBe(10)
+// 5 !== 10 → true
+// console.log(expect(5).notToBe(10));
+
+// Calls expect with value 5, then calls notToBe(5)
+// 5 === 5 → "Equal"
+// console.log(expect(5).notToBe(5));
+
+console.log(expect(4).toBe(4));
+console.log(expect(42).notToBe(422));
+
+console.log(expect(43).toBe(43));
+console.log(expect(411).notToBe(422));
