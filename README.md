@@ -28,6 +28,14 @@ even after the outer function has finished execution.
 - Fixing common closure mistakes (unused expressions vs assignment)
 
 ---
+
+## ## LeetCode Practice – createCounter
+
+Practiced the `createCounter` problem using JavaScript closures.  
+Implemented `increment`, `decrement`, and `reset` methods.  
+Learned how closures preserve state across function calls.  
+Tested the solution locally in VS Code.
+
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
 ## Platform: LeetCode
