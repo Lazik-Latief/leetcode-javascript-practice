@@ -135,3 +135,46 @@ console.log(expect(42).notToBe(422));
 
 console.log(expect(43).toBe(43));
 console.log(expect(411).notToBe(422));
+
+// // /**
+//  * createCounter uses CLOSURE to remember values between function calls
+//  * @param {number} init - initial value of the counter
+//  * @returns {Object} - object with increment, decrement, reset functions
+//  */
+var createCounter = function (init) {
+
+  // current value of the counter (can change)
+  let current = init;
+
+  // returning an object with 3 methods
+  return {
+
+    // increments current value by 1
+    increment: function () {
+      current++;          // increase value
+      return current;     // return updated value
+    },
+
+    // decrements current value by 1
+    decrement: function () {
+      current--;          // decrease value
+      return current;     // return updated value
+    },
+
+    // resets current value back to initial value
+    reset: function () {
+      current = init;     // set current to init
+      return current;     // return reset value
+    }
+  };
+};
+
+/* ================== PRACTICE TEST (VS Code) ================== */
+
+const counterN = createCounter(5);
+
+console.log(counterN.increment()); // 6
+console.log(counterN.increment()); // 7
+console.log(counterN.decrement()); // 6
+console.log(counterN.reset());     // 5
+
