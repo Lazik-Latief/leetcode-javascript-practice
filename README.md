@@ -36,6 +36,14 @@ Implemented `increment`, `decrement`, and `reset` methods.
 Learned how closures preserve state across function calls.  
 Tested the solution locally in VS Code.
 
+##  LeetCode – Apply Transform Over Each Element in Array
+
+Practiced implementing `map` without using the built-in `Array.map`.  
+Used a loop to apply a function to each element and index.  
+Focused on understanding callbacks and array traversal.  
+Tested the solution locally in VS Code.
+
+
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
 ## Platform: LeetCode

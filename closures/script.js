@@ -178,3 +178,52 @@ console.log(counterN.increment()); // 7
 console.log(counterN.decrement()); // 6
 console.log(counterN.reset());     // 5
 
+// 
+/**
+ * LeetCode 2635: Apply Transform Over Each Element in Array
+ *
+ * We must NOT use Array.map().
+ * Instead, we manually loop over the array and apply the function.
+ *
+ * @param {number[]} arr - input array
+ * @param {Function} fnn  - function to apply on each element
+ * @return {number[]}    - new transformed array
+ */
+var map = function (arr, fn) {
+
+  // Create an empty array to store transformed values
+  const result = [];
+
+  // Loop through each element of the input array
+  for (let i = 0; i < arr.length; i++) {
+
+    // Apply fn to current element and its index
+    // fn(arr[i], i) returns the transformed value
+    const transformedValue = fn(arr[i], i);
+
+    // Push transformed value into result array
+    result.push(transformedValue);
+  }
+
+  // Return the final transformed array
+  return result;
+};
+
+/* ===================== PRACTICE TEST (VS Code) ===================== */
+
+// Example input array
+const arr = [1, 2, 3];
+
+// Example function
+const fnn = function (n, i) {
+  // Adds index to value
+  return n + i;
+};
+
+// Calling map function
+const output = map(arr, fnn);
+
+// Printing result
+console.log(output); // [1, 3, 5]
+
+
