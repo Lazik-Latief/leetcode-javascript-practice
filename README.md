@@ -31,17 +31,25 @@ even after the outer function has finished execution.
 
 ## ## LeetCode Practice – createCounter
 
-Practiced the `createCounter` problem using JavaScript closures.  
-Implemented `increment`, `decrement`, and `reset` methods.  
-Learned how closures preserve state across function calls.  
-Tested the solution locally in VS Code.
+- Practiced the `createCounter` problem using JavaScript closures.  
+- Implemented `increment`, `decrement`, and `reset` methods.  
+- Learned how closures preserve state across function calls.  
+- Tested the solution locally in VS Code.
 
 ##  LeetCode – Apply Transform Over Each Element in Array
 
-Practiced implementing `map` without using the built-in `Array.map`.  
-Used a loop to apply a function to each element and index.  
-Focused on understanding callbacks and array traversal.  
-Tested the solution locally in VS Code.
+- Practiced implementing `map` without using the built-in `Array.map`.  
+- Used a loop to apply a function to each element and index.  
+- Focused on understanding callbacks and array traversal.  
+- Tested the solution locally in VS Code.
+
+## Day 16 of Let’s Code focuses on JavaScript fundamentals.( LeetCode )
+
+- This task implements array filtering without using Array.filter().
+- Learned how callback functions work with values and indexes.
+- Improved understanding of truthy and falsy values.
+- Practiced clean logic and loop-based problem solving.
+
 
 
 ## Language Used: JavaScript  
