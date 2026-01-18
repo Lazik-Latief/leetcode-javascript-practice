@@ -50,7 +50,13 @@ even after the outer function has finished execution.
 - Improved understanding of truthy and falsy values.
 - Practiced clean logic and loop-based problem solving.
 
+## Day 18 (as of January). ( LeetCode )
 
+- Practiced implementing Array.reduce functionality from scratch.
+- Learned how reducer functions accumulate values step by step.
+- Solved the problem without using the built-in Array.reduce method.
+- Implemented both iterative and recursive approaches for better understanding.
+- Strengthened core JavaScript logic and problem-solving skills.
 
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
