@@ -55,8 +55,17 @@ even after the outer function has finished execution.
 - Practiced implementing Array.reduce functionality from scratch.
 - Learned how reducer functions accumulate values step by step.
 - Solved the problem without using the built-in Array.reduce method.
-- Implemented both iterative and recursive approaches for better understanding.
+- Implemented both iterative and recursive approaches for better     understanding.
 - Strengthened core JavaScript logic and problem-solving skills.
+
+## Day 19 (as of January). ( LeetCode )
+
+- Solved the Function Composition problem using JavaScript.
+- Learned how to compose multiple functions from right to left.
+- Handled edge cases like an empty function array using identity functions.
+- Practiced higher-order functions and closures.
+- Improved understanding of functional programming concepts.
+
 
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
