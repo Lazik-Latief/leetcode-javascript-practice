@@ -66,6 +66,16 @@ even after the outer function has finished execution.
 - Practiced higher-order functions and closures.
 - Improved understanding of functional programming concepts.
 
+## Day 20 (as of January). ( LeetCode )
+
+## LeetCode – Return Length of Arguments Passed
+
+- Solved LeetCode problem 2703 using JavaScript.
+- Demonstrates use of rest parameters (...args).
+- Handles variable number of function arguments.
+- Includes local test cases for VS Code practice.
+- Focuses on core JavaScript fundamentals
+
 
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
