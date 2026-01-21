@@ -76,6 +76,17 @@ even after the outer function has finished execution.
 - Includes local test cases for VS Code practice.
 - Focuses on core JavaScript fundamentals
 
+## Day 21 (as of January). ( LeetCode )
+
+- Solved the “Allow One Function Call” problem using JavaScript closures.
+- Returned a wrapper function that controls how many times the original function runs.
+- Used a closure variable to track whether the function was already called.
+- Ensured the original function executes only on the first invocation.
+- Returned undefined on all subsequent calls.
+- Used the spread operator to support any number of arguments.
+- Demonstrated how functions can retain state across executions.
+- This task strengthened understanding of closures and higher-order functions.
+
 
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
