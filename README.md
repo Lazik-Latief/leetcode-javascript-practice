@@ -87,6 +87,17 @@ even after the outer function has finished execution.
 - Demonstrated how functions can retain state across executions.
 - This task strengthened understanding of closures and higher-order functions.
 
+## Day 21 (as of January). ( LeetCode )
+
+Solved the Memoize problem using JavaScript closures.
+Implemented a higher-order function that caches computed results.
+Used an object as a cache to store function outputs by arguments.
+Ensured repeated calls with the same inputs return cached values.
+Handled different input functions including sum, fib, and factorial.
+Preserved argument order to avoid incorrect cache reuse.
+Improved performance by avoiding unnecessary recomputation.
+Strengthened understanding of closures and memoization techniques.
+
 
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
