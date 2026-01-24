@@ -87,7 +87,7 @@ even after the outer function has finished execution.
 - Demonstrated how functions can retain state across executions.
 - This task strengthened understanding of closures and higher-order functions.
 
-## Day 21 (as of January). ( LeetCode )
+## Day 23 (as of January). ( LeetCode )
 
 Solved the Memoize problem using JavaScript closures.
 Implemented a higher-order function that caches computed results.
@@ -97,6 +97,20 @@ Handled different input functions including sum, fib, and factorial.
 Preserved argument order to avoid incorrect cache reuse.
 Improved performance by avoiding unnecessary recomputation.
 Strengthened understanding of closures and memoization techniques.
+---
+
+## README Update
+## ## Day 24 (as of January). ( LeetCode )
+
+This task practices working with multiple JavaScript Promises.
+Two promises are passed into a function and executed in parallel.
+Promise.all() is used to wait until both promises resolve.
+The resolved values are extracted from the returned array.
+An async function with await is used for cleaner syntax.
+The function returns the sum of both resolved numbers.
+This mimics real-world async operations like API calls.
+The solution follows a clean and efficient promise-handling pattern.
+---
 
 
 ## Language Used: JavaScript  
