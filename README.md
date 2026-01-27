@@ -100,7 +100,7 @@ Strengthened understanding of closures and memoization techniques.
 ---
 
 ## README Update
-## ## Day 24 (as of January). ( LeetCode )
+## ## Day 26 (as of January). ( LeetCode )
 
 This task practices working with multiple JavaScript Promises.
 Two promises are passed into a function and executed in parallel.
@@ -112,6 +112,16 @@ This mimics real-world async operations like API calls.
 The solution follows a clean and efficient promise-handling pattern.
 ---
 
+## Day 27 (as of January). ( LeetCode )
+
+## LeetCode – Timeout Cancellation (2715)
+
+Implemented a cancellable timeout function using JavaScript.
+The function delays execution using setTimeout.
+A cancel function is returned to stop execution if called early.
+clearTimeout is used to cancel the scheduled task.
+Demonstrates closures and async control in JavaScript.
+---
 
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
