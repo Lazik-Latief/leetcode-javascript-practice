@@ -122,6 +122,14 @@ A cancel function is returned to stop execution if called early.
 clearTimeout is used to cancel the scheduled task.
 Demonstrates closures and async control in JavaScript.
 ---
+## Day 28 (as of January). ( LeetCode )
+
+This solution calls the given function immediately with provided arguments.
+It then repeatedly invokes the function at a fixed interval using setInterval.
+A cancel function is returned to stop further executions.
+The interval is cleared when cancel is called.
+This ensures precise control over repeated function execution.
+---
 
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
