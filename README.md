@@ -131,6 +131,16 @@ The interval is cleared when cancel is called.
 This ensures precise control over repeated function execution.
 ---
 
+## Day 29 (as of January). ( LeetCode )
+### LeetCode 2637 – Promise Time Limit
+
+This solution wraps an async function with a time constraint.  
+If the function resolves within the given time, the result is returned.  
+If execution exceeds the time limit, it rejects with `"Time Limit Exceeded"`.  
+Implemented using JavaScript Promises and `setTimeout`.  
+Clear comments added for better understanding and learning.
+---
+
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
 ## Platform: LeetCode
