@@ -141,6 +141,17 @@ Implemented using JavaScript Promises and `setTimeout`.
 Clear comments added for better understanding and learning.
 ---
 
+## Day 30  (as of January). ( LeetCode )
+## ## Cache With Time Limit (LeetCode 2622)
+
+This project implements a time-limited cache using JavaScript.
+Each key-value pair expires after a given duration.
+Expired keys are automatically removed on access.
+The solution uses Map for efficient storage and lookup.
+No timers are used; expiration is checked using timestamps.
+This approach is clean, efficient, and interview-ready.
+--- 
+
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
 ## Platform: LeetCode
