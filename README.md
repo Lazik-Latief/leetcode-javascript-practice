@@ -152,6 +152,16 @@ No timers are used; expiration is checked using timestamps.
 This approach is clean, efficient, and interview-ready.
 --- 
 
+## Day 31  (as of January). ( LeetCode )
+# Debounce Function (JavaScript)
+
+This project demonstrates how to implement a debounce function without using lodash.
+Debouncing delays function execution until a certain time has passed since the last call.
+It helps optimize performance by preventing unnecessary repeated function calls.
+Common use cases include search inputs, resize events, and button clicks.
+The solution uses `setTimeout` and `clearTimeout` for execution control.
+
+
 ## Language Used: JavaScript  
 ## Focus: Learning concepts, not optimization  
 ## Platform: LeetCode
