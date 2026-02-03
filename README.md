@@ -160,6 +160,17 @@ Debouncing delays function execution until a certain time has passed since the l
 It helps optimize performance by preventing unnecessary repeated function calls.
 Common use cases include search inputs, resize events, and button clicks.
 The solution uses `setTimeout` and `clearTimeout` for execution control.
+---
+## Day 03 Feb ( LeetCode )
+
+### Async Parallel Execution Utility
+This file implements a custom Promise.all alternative.
+It executes multiple asynchronous functions in parallel.
+Results are resolved in the same order as the input functions.
+The promise rejects immediately if any function fails.
+Built using core JavaScript Promises without Promise.all.
+Suitable for understanding async control flow in interviews.
+
 
 
 ## Language Used: JavaScript  
