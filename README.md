@@ -170,7 +170,18 @@ Results are resolved in the same order as the input functions.
 The promise rejects immediately if any function fails.
 Built using core JavaScript Promises without Promise.all.
 Suitable for understanding async control flow in interviews.
+---
 
+## Day 04 Feb ( LeetCode )
+### LeetCode 2727 - Is Object Empty
+
+- Implemented a function to check if an object or array is empty.
+- Uses `Array.isArray()` for arrays and `Object.keys()` for objects.
+- Handles both objects and arrays from JSON.parse outputs.
+- Returns `true` for empty arrays/objects, `false` otherwise.
+- Includes example test cases for quick verification.
+- Solution is concise and efficient for LeetCode submission.
+---
 
 
 ## Language Used: JavaScript  
